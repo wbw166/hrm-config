@@ -1,0 +1,14 @@
+server:
+  port: 9527
+
+zuul:
+  prefix: /services
+  ignored-services: "*"
+  routes:
+    system:
+      path: /system/**
+      serviceId: SYSTEM-SERVICE
+    course:
+      path: /course/**
+      serviceId: COURSE-SERVICE
+
