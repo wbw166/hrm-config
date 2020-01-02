@@ -14,4 +14,7 @@ zuul:
     file:
       path: /file/**
       serviceId: FILE-SERVICE
+    page:
+      path: /page/**
+      serviceId: PAGE-SERVICE
 
