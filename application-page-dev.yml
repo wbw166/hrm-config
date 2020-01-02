@@ -7,7 +7,7 @@ spring:
 
 hrm:
   swagger:
-    titel:页面静态化管理服务
+    titel: 页面静态化管理服务
     description: 页面静态化管理服务接口文档
 
 feign:
