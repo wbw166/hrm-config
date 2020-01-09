@@ -17,4 +17,7 @@ zuul:
     page:
       path: /page/**
       serviceId: PAGE-SERVICE
+    user:
+      path: /user/**
+      serviceId: USER-SERVICE
 
